@@ -9,7 +9,7 @@ class Fleet:
 
     def create_fleet(self):
         robo_1= Robot('beep')
-        robo_2= Robot('beep boop')
+        robo_2= Robot('boop')
         robo_3= Robot('bop')
         
       

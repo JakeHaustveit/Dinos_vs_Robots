@@ -5,11 +5,12 @@ class Robot:
     def __init__(self, name):
        
         self.name= name
-        self.health= int(35)
+        self.health= int(100)
         self.weapon= int(4)
 
     def attack(self, dinosaur):
-        self.weapon
+        attack= self.weapon
+        return attack
 
     def pick_weapon(self):
         print(' pick "1" for laser pointer, pick "2" for stun gun, pick "3" for dim saber')
